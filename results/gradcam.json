@@ -1,0 +1,22 @@
+{
+ "layers": "teacher: encoder.layer4, student: encoder.features[-1]",
+ "n_images": 99,
+ "chance": 0.1556682523123619,
+ "energy_teacher": 0.6378036541770203,
+ "energy_student": 0.4749697112111431,
+ "cam_corr_mean": 0.8623475169194391,
+ "cam_corr_median": 0.8934636576209213,
+ "stat": {
+  "comparison": "CAM energy in polyp: student vs teacher",
+  "mean_diff": -0.16283394296587717,
+  "ci_low": -0.1825011064740594,
+  "ci_high": -0.1434167468896832,
+  "p_value": 1.2939680695754282e-17
+ },
+ "picks": {
+  "best": "cju5u6wf0kh1t0755bg1ssixv",
+  "median": "cju7cp6dw244p0818gncdol4m",
+  "2nd worst": "cju76o55nymqd0871h31sph9w",
+  "worst": "cju1drnhbrb9409935wi7vkhg"
+ }
+}

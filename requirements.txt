@@ -1,0 +1,13 @@
+# inference (infer.py)
+onnxruntime>=1.20
+opencv-python
+numpy
+# training / evaluation notebook (run on Google Colab, T4 GPU)
+torch
+segmentation-models-pytorch==0.6.0
+albumentations==2.0.8
+onnx
+grad-cam
+scikit-learn
+scipy
+matplotlib
